@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@100&display=swap');
+
+:root{
+    --main-bg-color:rgb(24, 138, 231);
+}
+
+*{
+
+    margin: 0;
+    padding: 0;
+}
+footer{
+    background-color: var(--main-bg-color);
+    color: white;
+    height: 12vh;
+    font-family: 'Georama', sans-serif;
+}
+header{
+    background-color: var(--main-bg-color);
+    
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+   
+}
+.logo img{
+     width: 93px;
+    padding: 0 23px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 59px;
+}
+nav ul li{
+    list-style: none;
+    padding: 23px;
+    
+
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Georama', sans-serif
+}
+nav ul li a:hover {
+    font-weight:bold; 
+    
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width:32vw;
+    height: 28px;
+    margin: 0 62px;
+
+}
+.button{
+    position: relative;
+    right: 90px;
+    width: 25px;
+    top: 3px;
+}
+
+
+.button img{
+    width: 25px;
+}
+    
+.container{
+    min-height: calc(100vh - 59px - 12vh);
+}
+.slider{
+    /* display: flex;
+    justify-content: center;    */
+    overflow: hidden;
+    width: 80vw;
+    margin: auto;
+}
+.card{
+    max-width: 91vw;
+    margin: auto;
+    margin:34px auto;
+}
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 12vw;
+    margin: 10px 15px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.h2{
+    padding: 5px;
+    font-family: 'Georama', sans-serif;
+}
+.text-center{
+    text-align: center;
+}
+.m-1{
+    margin: 5px 0;
+}
